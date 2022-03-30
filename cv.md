@@ -41,3 +41,4 @@ Samara State Aerospace University, Faculty of lnformation Technology: Master (En
 ## Languages
 - Russian - native
 - English - Upper-Intermediate (B2 CEFR Level), FCE Cambridge Certificate
+
