@@ -1,55 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Denis Romanov</h1>
-  
-  <img src="/img/cv-photo.jpg" alt="Photo">
+    <main class="main-font white-background">
+        <div class="div-center light-background">
+            <table width="100%">
+                <tr>
+                    <td width="20%">
+                        <div class="text-left-align">
+                            <img src="img/cv-photo.jpg" alt="Photo">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="text-left-align margin-standard">
+                            <h1 class="margin-standard">Denis Romanov</h1>
+                            <hr class="line-h1">
+                        </div>
+                        <div class="text-left-align margin-standard">
+                            <p class="margin-standard"><b>Email:</b> <a href="mailto:d.vl.romanov@gmail.com">d.vl.romanov@gmail.com</a></p>
+                            <p class="margin-standard"><b>Telegram:</b> <a href="https://t.me/jimmy749">Denis</a></p>
+                            <p class="margin-standard"><b>Github:</b> <a href="https://github.com/j-i-m-m-y">j-i-m-m-y</a></p>
+                            <p class="margin-standard"><b>Discord:</b> Denis R#7961</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
 
-  <h2>Contacts</h2>
-  <p><b>Email:</b> <a href="mailto:d.vl.romanov@gmail.com">d.vl.romanov@gmail.com</a></p>
-  <p><b>Telegram:</b> <a href="https://t.me/jimmy749">Denis</a></p>
-  <p><b>Github:</b> <a href="https://github.com/j-i-m-m-y">j-i-m-m-y</a></p>
-  <p><b>Discord:</b> Denis R#7961</p>
-  
-  <h2>Personal profile</h2>
-  <p>I am an <strong>automation engineer</strong> with over 15 years of experience in Industrial Automation and Control Systems, Automation Software Design and Development, Technical Support in Oil & Gas industry. An experienced <strong>Team Lead</strong> of group of 8 engineers. Proficient in industrial controllers programming, SCADA systems development, architecture of automation systems and complex problem resolution (troubleshooting) for new and existing systems. Having good programming background and soft skills, I want to master Frontend Development in order to take a new challenge which I find undoubtedly useful for my future career.</p>
-  
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML5, CSS3</li>
-    <li>JavaScript - basic level</li>
-    <li>Python 3, PyCharm</li>
-    <li>Git</li>
-    <li>Wide range of SCADA/PLC programming tools</li>
-  </ul>
+        <div class="text-left-align margin-standard">
+            <h2 class="margin-standard">Personal profile</h2>
+            <hr class="line-h2">
+            <p>I am an <strong>automation engineer</strong> with over 15 years of experience in Industrial Automation and Control Systems, Automation Software Design and Development, Technical Support in Oil & Gas industry. An experienced <strong>Team Lead</strong> of group of 8 engineers. Proficient in industrial controllers programming, SCADA systems development, architecture of automation systems and complex problem resolution (troubleshooting) for new and existing systems. Having good programming background and soft skills, I want to master Frontend Development in order to take a new challenge which I find undoubtedly useful for my future career.</p>
+        </div>
 
-  <h2>Code Example</h2>
-  <p><b><i>Task from Codewars: Descending Order</i></b></p>
-  <p><i>Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.</i></p>
-  <code><pre>
+        <div class="text-left-align margin-standard">
+            <h2 class="margin-standard">Skills</h2>
+            <hr class="line-h2">
+                <ul>
+                    <li>HTML5, CSS3</li>
+                    <li>Git</li>
+                    <li>JavaScript - basic level</li>
+                    <li>Python 3, PyCharm</li>
+                    <li>Wide range of SCADA/PLC programming tools</li>
+                </ul>
+        </div>
+
+        <div class="text-left-align margin-standard">
+            <h2 class="margin-standard">Code Example</h2>
+            <hr class="line-h2">
+            <p><b><i>Task from Codewars: Descending Order</i></b></p>
+            <p><i>Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.</i></p>
+            <code><pre>
     function descendingOrder(n){
         let arr = Array.from(n.toString(10));
         return parseInt(((arr.sort()).reverse()).join(''));
     }
-</pre></code>
-  
-  <h2>Education</h2>
-  <p><strong>Samara State Aerospace University</strong>, Faculty of lnformation Technology: Master (Engineer) degree in Computer Science</p>
-    
-  <h2>Courses</h2>
-  <ul>
-    <li>Microsoft Official Course: Administering Microsoft SQL Server Databases</li>
-    <li>EPAM Automated Testing Foundations Course</li>
-  </ul>
-  <h2>Languages</h2>
-  <ul>
-    <li>Russian - native</li>
-    <li>English - Upper-Intermediate (B2 CEFR Level), FCE Cambridge Certificate</li>
-  </ul>
+            </pre></code>
+        </div>  
 
+        <div class="text-left-align margin-standard">
+            <h2 class="margin-standard">Education</h2>
+            <hr class="line-h2">
+            <p><strong>Samara State Aerospace University</strong>, Faculty of lnformation Technology: Master (Engineer) degree in Computer Science</p>
+        </div>
+
+        <div class="text-left-align margin-standard">
+            <h2 class="margin-standard">Courses</h2>
+            <hr class="line-h2">
+            <ul>
+                <li>Microsoft Official Course: Administering Microsoft SQL Server Databases</li>
+                <li>EPAM Automated Testing Foundations Course</li>
+            </ul>
+        </div>
+
+        <div class="text-left-align margin-standard">
+            <h2 class="margin-standard">Languages</h2>
+            <hr class="line-h2">
+            <ul>
+                <li>Russian - native</li>
+                <li>English - Upper-Intermediate (B2 CEFR Level), FCE Cambridge Certificate</li>
+            </ul>
+        </div>
+
+    </main>
 </body>
 </html>
