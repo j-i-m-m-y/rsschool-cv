@@ -1,0 +1,36 @@
+.main-font {
+    font-family: Arial, Futura, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+.white-background {
+    background-color: #ffffff;
+}
+.light-background {
+    background-color: #cecece;
+}
+.line-h1 {
+    margin: 0 10px 20px 10px;
+    padding: 0;
+    height: 1px;
+    border: none;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+}        
+.line-h2 {
+    margin: 0 10px 20px 10px;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 1px solid #333;
+}
+.div-center {
+    width: 60%;
+    margin: 0 auto;
+}
+.margin-standard {
+    margin: 20px 10px;
+}
+.text-left-align {
+    text-align: left;
+}
